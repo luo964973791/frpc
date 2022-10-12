@@ -1,7 +1,7 @@
 ### 一、上传frpc到/usr/local/bin目录下,frpc官网https://www.natfrp.com
 
 ```javascript
-
+git clone https://github.com/luo964973791/frpc.git && cd frpc
 mv frpc /usr/local/bin
 ```
 ### 二、设置server
@@ -16,7 +16,7 @@ Type=idle
 User=root
 Restart=on-failure
 RestartSec=60s
-ExecStart=/usr/local/bin/frpc -f 20o5w1fpztg3vmaj:5055971
+ExecStart=/usr/local/bin/frpc -f 20xxxx:xxxxx
 [Install]
 WantedBy=multi-user.target
 ```

@@ -1,7 +1,7 @@
 ### 一、上传frpc到/usr/local/bin目录下,frpc官网https://www.natfrp.com
 
 ```javascript
-git clone https://github.com/luo964973791/frpc.git && cd frpc
+git clone https://github.com/luo964973791/frpc.git && cd frpc && chmod a+x frpc
 mv frpc /usr/local/bin
 ```
 ### 二、设置server
